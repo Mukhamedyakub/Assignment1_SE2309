@@ -1,32 +1,32 @@
 package action;
 
 public class Point {
-    private double x;
-    private double y;
+    private double a;
+    private double b;
 
-    public Point(double x, double y) {
-        setX(x);
-        setY(y);
+    public Point(double a, double b) {
+        setX(a);
+        setY(b);
     }
 
-    public double getX() {
-        return x;
+    public double getA() {
+        return a;
     }
 
-    public void setX(double x) {
-        this.x = x;
+    public void setA(double a) {
+        this.a = a;
     }
 
-    public double getY() {
-        return y;
+    public double getB() {
+        return b;
     }
 
     public void setY(double y) {
-        this.y = y;
+        this.b = b;
     }
 
     public double getDistance(Point dest){
-        double x2 = dest.getX() - getX();
+        double a2 = dest.getA() - getA();
         double y2 = dest.getY() - getY();
 
         return Math.sqrt(x2*x2 + y2*y2);
