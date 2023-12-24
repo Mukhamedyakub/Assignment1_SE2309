@@ -15,10 +15,10 @@ public class Main {
         Shape shape = new Shape();
 
         while (sc.hasNext()){
-            double x = sc.nextDouble();
-            double y = sc.nextDouble();
+            double a = sc.nextDouble();
+            double b = sc.nextDouble();
 
-            Point point = new Point(x, y);
+            Point point = new Point(a, b);
             shape.addPoint(point);
         }
 
